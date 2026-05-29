@@ -96,7 +96,7 @@ while True:
     
     
     
-    data=str(pot)+','+str(compteur)+','+str(round(angle,2))
+    data=str(pot)+','+str(compteur)+','+str(round(angle,2))','+str(x)+','+str(y)
     #data="q"+','+"x"+','+"k"+','+"v"+','+"r"
     env_tx(data)
     time.sleep_ms(duree)
